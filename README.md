@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Mictjz859
 - 👀 I’m interested in programming
 - 🌱 I’m currently learning Math & CS
-- 📫 No wasy to reach me
+- 📫 No way to reach me
 
 <!---
 Mictjz859/Mictjz859 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
