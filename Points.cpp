@@ -1,11 +1,3 @@
-/*
-Student: Eduardo Soto
-Student Number: 1133693
-Software Engineering 3GC3
-Assignment 1
-Particle System
-October 9th, 2013
-*/
 
 #include <stdlib.h>
 #include <stdio.h>
