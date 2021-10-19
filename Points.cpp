@@ -451,3 +451,7 @@ int main(int argc, char** argv)
 
 	return(0);					
 }
+if (key == ' ') {
+        y = y + 0.5;
+
+    }
