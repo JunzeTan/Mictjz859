@@ -6,8 +6,8 @@
 #changing platform dependant stuff, do not change this
 # Linux (default)
 LDFLAGS = -lGL -lGLU -lglut
-CFLAGS=-g -Wall -std=c++11
-CC=g++
+CXXFLAGS=-g -Wall -std=c++11
+CXX=gcc
 EXEEXT=
 RM=rm
 
@@ -17,7 +17,7 @@ ifeq "$(OS)" "Windows_NT"
 	RM=del #rm command for windows powershell
     LDFLAGS = -lfreeglut -lglu32 -lopengl32
 else
-	# OS X
+# OS X
 	OS := $(shell uname)
 	ifeq ($(OS), Darwin)
 	        LDFLAGS = -framework Carbon -framework OpenGL -framework GLUT
@@ -25,7 +25,7 @@ else
 endif
 
 #change the 't1' name to the name you want to call your application
-PROGRAM_NAME= Points
+PROGRAM_NAME=graded
 
 #run target to compile and build, and then launch the executable
 run: $(PROGRAM_NAME)
@@ -36,8 +36,9 @@ run: $(PROGRAM_NAME)
 #ie. boilerplateClass.o and yourFile.o
 #make will automatically know that the objectfile needs to be compiled
 #form a cpp source file and find it itself :)
-$(PROGRAM_NAME): Points.o
-	$(CC) -o $@ $^ $(CFLAGS) $(LDFLAGS)
+$(PROGRAM_NAME): graded.o
+	$(CXX) -o $@ $^ $(CXXFLAGS) $(LDFLAGS)
+
 
 clean:
 	$(RM) *.o $(PROGRAM_NAME)$(EXEEXT)
