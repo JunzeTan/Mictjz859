@@ -1,7 +1,7 @@
-- 👋 Hi, I’m @Mictjz859
-- 👀 I’m interested in programming
-- 🌱 I’m currently learning Math & CS
-- 📫 No way to reach me
+- 👋 Hi, I’m Junze Tan (Michael)
+- 👀 I’m interested in Computer Science
+- 🌱 I’m currently learning Math & CS @McMaster University
+- 📫 For any interests, you can reach me at michaeltanjunze@qq.com
 
 <!---
 Mictjz859/Mictjz859 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
